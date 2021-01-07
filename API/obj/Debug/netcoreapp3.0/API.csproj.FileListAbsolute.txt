@@ -46,3 +46,4 @@ C:\Users\Oguzk\OneDrive\Masaüstü\ReacNetLite\API\bin\Debug\netcoreapp3.0\runti
 C:\Users\Oguzk\OneDrive\Masaüstü\ReacNetLite\API\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Oguzk\OneDrive\Masaüstü\ReacNetLite\API\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Oguzk\OneDrive\Masaüstü\ReacNetLite\API\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Oguzk\OneDrive\Masaüstü\ReacNetLite\API\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
