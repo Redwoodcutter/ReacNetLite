@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios'
-
+import {Header, Icon, List} from 'semantic-ui-react';
 
 class App extends Component{
 state = {
@@ -11,7 +11,6 @@ state = {
 componentDidMount(){
   axios.get('http://localhost:5000/api/values')
     .then((response) => {
-      console.log(response);
       this.setState({
         values: response.data
       })
@@ -20,14 +19,16 @@ componentDidMount(){
 
   render(){
     return (
-      <div className="App">
-        <header className="App-header">
-         <ul>
-           {this.state.values.map((value) => (
-             <li key={value.id}> {value.name}</li>
-           ))}
-         </ul>
-        </header>
+      <div>
+       <Header as='h2'>
+         <Icon name='users' />
+           <Header.Content>ReactNetLite</Header.Content>
+       </Header>
+       <List>
+          {this.state.values.map((value) => (
+              <List.Item key={value.id}>{value.name}</List.Item>
+            ))}
+       </List>
       </div>
     );
   }
