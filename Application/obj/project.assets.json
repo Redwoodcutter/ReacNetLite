@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -518,6 +540,37 @@
     }
   },
   "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
       "sha512": "K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
       "type": "package",
@@ -1340,6 +1393,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "Domain >= 1.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Persistence >= 1.0.0"
     ]
   },
@@ -1349,11 +1403,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
+      "projectUniqueName": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
+      "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Oguzk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\obj\\",
+      "outputPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oguzk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1367,11 +1421,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj"
+            "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj"
+            "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj": {
+              "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1384,6 +1438,12 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

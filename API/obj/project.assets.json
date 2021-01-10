@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.6.0": {
         "type": "package",
         "compile": {
@@ -420,6 +442,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Domain": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Persistence": "1.0.0"
         },
         "compile": {
@@ -458,6 +481,37 @@
     }
   },
   "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.6.0": {
       "sha512": "kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
       "type": "package",
@@ -1146,11 +1200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
+      "projectUniqueName": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
+      "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Oguzk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\obj\\",
+      "outputPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oguzk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1164,8 +1218,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj"
+            "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj": {
+              "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj"
             }
           }
         }
