@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj": {}
+    "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj": {
+    "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Oguzk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\obj\\",
+        "outputPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oguzk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj"
+              "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj": {
+    "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Oguzk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oguzk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -82,11 +82,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj"
+              "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj"
               },
-              "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj": {
-                "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -124,14 +124,14 @@
         }
       }
     },
-    "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
+    "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Oguzk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oguzk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -174,14 +174,14 @@
         }
       }
     },
-    "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Oguzk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oguzk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -195,8 +195,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj"
+              "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Oguzk\\OneDrive\\Masaüstü\\ReacNetLite\\Domain\\Domain.csproj"
               }
             }
           }
