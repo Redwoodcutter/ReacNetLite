@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
-import './App.css';
 import axios from 'axios'
 import {Header, Icon, List} from 'semantic-ui-react';
 
+
 class App extends Component{
+
 state = {
-  values: []
+  activities: []
 }
 
 componentDidMount(){
-  axios.get('http://localhost:5000/api/values')
+  axios.get('http://localhost:5000/api/activities')
     .then((response) => {
+      this.state = 
       this.setState({
-        values: response.data
-      })
-    })
+        activities: response.data
+      });
+    });
 }
 
   render(){
@@ -25,8 +27,8 @@ componentDidMount(){
            <Header.Content>ReactNetLite</Header.Content>
        </Header>
        <List>
-          {this.state.values.map((value) => (
-              <List.Item key={value.id}>{value.name}</List.Item>
+          {this.state.activities.map((activities) => (
+              <List.Item key={activities.id}>{activities.title}</List.Item>
             ))}
        </List>
       </div>
